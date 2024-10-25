@@ -5,11 +5,11 @@
     <meta charset="utf-8">
   </head>
   <body>
-
-    <div>
+    
+    <div class="nav-menu">
       <a href="index.html">homeページ</a>
-      <a href="moby_dick.html">読書案内『Moby Dick』</a>
-      <a href="tags.html">HTMLタグ一覧</a>
+      <a href="tags.html"class="nav-spacing">HTMLタグ一覧</a>
+      <a href="moby_dick.html"class="nav-spacing">読書案内『Moby Dick』</a>
     </div>
 
     <h1>重要なHTMLタグ一覧</h1>
@@ -38,34 +38,59 @@
         <th>目的</th>
       </tr>
       <tr>
-        <td><code>h1</code>&ndash;<code>h6</code></td>
-        <td>見出し（heading）</td>
+        <td padding:20px;><code>h1</code>&ndash;<code>h6</code></td>
+        <td padding:20px;>見出し（heading）</td>
         <td>この中に見出しを置く（レベル: 1&ndash;6）</td>
       </tr>
       <tr>
-        <td><code>p</code></td>
-        <td>段落（パラグラフ: paragraph）</td>
+        <td padding:20px;><code>p</code></td>
+        <td padding:20px;>段落（パラグラフ: paragraph）</td>
         <td>この中に文章を入れる</td>
       </tr>
       <tr>
-        <td><code>table</code></td>
-        <td>表（テーブル: table）</td>
+        <td padding:20px;><code>table</code></td>
+        <td padding:20px;>表（テーブル: table）</td>
         <td>この中にテーブルを置く</td>
       </tr>
       <tr>
-        <td><code>tr</code></td>
-        <td>表の行（table row）</td>
+        <td padding:20px;><code>tr</code></td>
+        <td padding:20px;>表の行（table row）</td>
         <td>この中に行データを置く</td>
       </tr>
       <tr>
-        <td><code>th</code></td>
-        <td>表の見出し（table header）</td>
+        <td padding:20px;><code>th</code></td>
+        <td padding:20px;>表の見出し（table header）</td>
         <td>この中に表の見出しを置く</td>
       </tr>
       <tr>
-        <td><code>td</code></td>
-        <td>表のデータ（table data）</td>
+        <td padding:20px;><code>td</code></td>
+        <td padding:20px;>表のデータ（table data）</td>
         <td>この中に表のセルデータを置く</td>
+      </tr>
+      <tr>
+        <td padding:20px;>header</td>
+        <td padding:20px;>ヘッダー（header）</td>
+        <td>この要素のコンテンツは見出しを表す</td>
+      </tr>
+      <tr>
+        <td padding:20px;>div</td>
+        <td padding:20px;>ディブ（div）</td>
+        <td>ブロック要素としてグループ化</td>
+      </tr>
+      <tr>
+        <td padding:20px;>ol</td>
+        <td padding:20px;>順序付きリスト要素（ordered list）</td>
+        <td>項目の順序付きリストを表す</td>
+      </tr>
+      <tr>
+        <td padding:20px;>ul</td>
+        <td padding:20px;>順序なしリスト要素（unordered list）</td>
+        <td>項目の順序なしリストを表す</td>
+      </tr>
+      <tr>
+        <td padding:20px;>li</td>
+        <td padding:20px;>リスト項目要素（list item）</td>
+        <td>リストの項目を表す</td>
       </tr>
     </table>
 
@@ -126,24 +151,7 @@
       </td>
       <td><code>code</code></td>
       </tr>
-      <tr>
-        <td>header</td>
-        <td>ヘッダー（header）</td>
-        <td>この要素のコンテンツは見出しを表す</td>
-        <td>
-          <code>&lt;header&gt;hello,world!&lt;/header&gt;</code>
-        </td>
-        <td><header>hello,world!</header></td>
-      </tr>
-      <tr>
-        <td>div</td>
-        <td>ディブ（div）</td>
-        <td>ブロック要素としてグループ化</td>
-        <td>
-          <code>&lt;div&gt;hello,again!&lt;/div&gt;</code>
-        </td>
-        <td><header>hello,again!</header></td>
-      </tr>
+     
       <tr>
         <td>span</td>
         <td>スパン（span）</td>
@@ -152,51 +160,6 @@
           <code>&lt;span&gt;goodbye!&lt;/span&gt;</code>
         </td>
         <td><span>goodbye!</span></td>
-      </tr>
-      <tr>
-        <td>ol</td>
-        <td>順序付きリスト要素（ordered list）</td>
-        <td>項目の順序付きリストを表す</td>
-        <td>
-          <code>&lt;ol&gt;&lt;li&gt;foo&lt;/li&gt;&lt;li&gt;bar&lt;/li&gt;&lt;li&gt;baz&lt;/li&gt;&lt;/ol&gt;</code>
-        </td>
-        <td>
-          <ol>
-          <li>foo</li>
-          <li>bar</li>
-          <li>baz</li>
-          </ol>
-        </td>
-      </tr>
-      <tr>
-        <td>ul</td>
-        <td>順序なしリスト要素（unordered list）</td>
-        <td>項目の順序なしリストを表す</td>
-        <td>
-          <code>&lt;ul&gt;&lt;li&gt;foo&lt;/li&gt;&lt;li&gt;bar&lt;/li&gt;&lt;li&gt;baz&lt;/li&gt;&lt;/ul&gt;</code>
-        </td>
-        <td>
-          <ul>
-          <li>foo</li>
-          <li>bar</li>
-          <li>baz</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>li</td>
-        <td>リスト項目要素（list item）</td>
-        <td>リストの項目を表す</td>
-        <td>
-          <code>&lt;ol&gt;&lt;li&gt;foo&lt;/li&gt;&lt;li&gt;bar&lt;/li&gt;&lt;li&gt;baz&lt;/li&gt;&lt;/ol&gt;</code>
-        </td>
-        <td>
-          <ol>
-          <li>foo</li>
-          <li>bar</li>
-          <li>baz</li>
-          </ol>
-        </td>
       </tr>
     </table>
 
