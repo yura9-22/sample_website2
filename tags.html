@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <title>HTMLタグ一覧</title>
     <meta charset="utf-8">
   </head>
   <body>
+
+    <div>
+      <a href="index.html">homeページ</a>
+      <a href="moby_dick.html">読書案内『Moby Dick』</a>
+      <a href="tags.html">HTMLタグ一覧</a>
+    </div>
 
     <h1>重要なHTMLタグ一覧</h1>
 
@@ -63,7 +69,7 @@
       </tr>
     </table>
 
-   <h2>インライン要素（inline element）</h2>
+    <h2>インライン要素（inline element）</h2>
 
     <table>
       <tr>
@@ -79,6 +85,118 @@
         <td>テキストを軽く強調する</td>
         <td><code>技術の成熟（&lt;em&gt;technical sophistication&lt;/em&gt;）</code></td>
         <td>技術の成熟（<em>technical sophistication</em>）</td>
+      </tr>
+      <tr>
+        <td><code>strong</code></td>
+        <td>強調（strong）</td>
+        <td>テキストを強調する</td>
+        <td>
+          <code>&lt;strong&gt;少なくとも10億人&lt;/strong&gt;</code>
+        </td>
+        <td><strong>少なくとも10億人</strong></td>
+      </tr>
+      <tr>
+        <td><code>a</code></td>
+        <td>アンカー（anchor）</td>
+        <td>ハイパーリンクにする</td>
+        <td>
+          <code>
+            &lt;a href="https://learnenough.com/"&gt;Learn Enough&lt;/a&gt;
+          </code>
+        </td>
+        <td><a href="https://learnenough.com/">Learn Enough</a></td>
+      </tr>
+      <tr>
+        <td><code>img</code></td>
+        <td>画像（image）</td>
+        <td>画像を配置する</td>
+        <td>
+          <code>
+            &lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
+          </code>
+        </td>
+        <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
+      </tr>
+      <tr>
+      <td>code</td>
+      <td>コード（code）</td>
+      <td>等幅フォントで表示する</td>
+      <td>
+        <code>&lt;code&gt;code&lt;code&gt;</code>
+      </td>
+      <td><code>code</code></td>
+      </tr>
+      <tr>
+        <td>header</td>
+        <td>ヘッダー（header）</td>
+        <td>この要素のコンテンツは見出しを表す</td>
+        <td>
+          <code>&lt;header&gt;hello,world!&lt;/header&gt;</code>
+        </td>
+        <td><header>hello,world!</header></td>
+      </tr>
+      <tr>
+        <td>div</td>
+        <td>ディブ（div）</td>
+        <td>ブロック要素としてグループ化</td>
+        <td>
+          <code>&lt;div&gt;hello,again!&lt;/div&gt;</code>
+        </td>
+        <td><header>hello,again!</header></td>
+      </tr>
+      <tr>
+        <td>span</td>
+        <td>スパン（span）</td>
+        <td>インライン要素としてグループ化</td>
+        <td>
+          <code>&lt;span&gt;goodbye!&lt;/span&gt;</code>
+        </td>
+        <td><span>goodbye!</span></td>
+      </tr>
+      <tr>
+        <td>ol</td>
+        <td>順序付きリスト要素（ordered list）</td>
+        <td>項目の順序付きリストを表す</td>
+        <td>
+          <code>&lt;ol&gt;&lt;li&gt;foo&lt;/li&gt;&lt;li&gt;bar&lt;/li&gt;&lt;li&gt;baz&lt;/li&gt;&lt;/ol&gt;</code>
+        </td>
+        <td>
+          <ol>
+          <li>foo</li>
+          <li>bar</li>
+          <li>baz</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td>ul</td>
+        <td>順序なしリスト要素（unordered list）</td>
+        <td>項目の順序なしリストを表す</td>
+        <td>
+          <code>&lt;ul&gt;&lt;li&gt;foo&lt;/li&gt;&lt;li&gt;bar&lt;/li&gt;&lt;li&gt;baz&lt;/li&gt;&lt;/ul&gt;</code>
+        </td>
+        <td>
+          <ul>
+          <li>foo</li>
+          <li>bar</li>
+          <li>baz</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>li</td>
+        <td>リスト項目要素（list item）</td>
+        <td>リストの項目を表す</td>
+        <td>
+          <code>&lt;ol&gt;&lt;li&gt;foo&lt;/li&gt;&lt;li&gt;bar&lt;/li&gt;&lt;li&gt;baz&lt;/li&gt;&lt;/ol&gt;</code>
+        </td>
+        <td>
+          <ol>
+          <li>foo</li>
+          <li>bar</li>
+          <li>baz</li>
+          </ol>
+        </td>
       </tr>
     </table>
 
